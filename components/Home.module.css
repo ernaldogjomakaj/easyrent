@@ -1,0 +1,26 @@
+.container {
+  max-width: 100%;
+  margin: auto;
+  max-height: 600px;
+  height: 500px;
+  background-color: gray;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.div {
+  display: flex;
+  background-color: white;
+  margin-top: 200px;
+  padding: 30px;
+}
+
+.div > * {
+  padding: 20px;
+  margin-left: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+}
